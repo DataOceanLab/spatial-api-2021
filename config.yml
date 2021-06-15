@@ -1,0 +1,77 @@
+baseurl: "https://dataoceanlab.github.io/spatial-api-2021"
+title: "International Workshop on APIs and Libraries for Geospatial Data Science@ACM SIGSPATIAL 2021"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "SpatialAPI@ACM SIGSPATIAL 2021"
+  Description: "International Workshop on APIs and Libraries for Geospatial Data Science@ACM SIGSPATIAL 2020"
+  Date: "November 2, 2021, Beijing Time"
+  # Price: "Only $100" # If your event is free, just comment this line
+  Venue: "Online"
+  Address: "Online"
+  City:  "Beijing"
+  State: "China"
+  Images: ["/img/logo.png"]
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - intro
+    - location
+    - cfp
+    - deadline
+    - organizer
+    # - speakers
+    # - schedule
+    #- contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    intro: "About"
+    location: "Location"
+    cfp: "Call For Papers"
+    organizer: "Organization Committee"
+    speakers: "Speakers"
+    schedule: "Schedule"
+    deadline: "Important Dates"
+    # sponsors: "Sponsors"
+    # partners: "Partners"
+    # contact: "Contact"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  CallToAction:
+    text: "Register now"
+    link: ""
+
+  intro:
+    text: "The 3rd International Workshop on APIs and Libraries for Geospatial Data Science (SpatialAPI 2021) @ACM SIGSPATIAL is to provide students and researchers with hands-on experience with useful APIs and libraries related to geospatial data science, spanning from spatial big data management to advanced analytics enabled by machine learning, optimization, and more. At the same time, it gives an opportunity for API providers to reach out to targeted audiences who can benefit from their APIs. The API providers will be able to get direct feedback for their users to understand how to further improve their APIs and make them more user-friendly. The tutorials will be done in a classroom-style setting where the audience will bring their laptops to follow the directions of the presenter."
+
+  cfp:
+    text: "The workshop is calling for tutorial proposals from the community. Accepted tutorials will have two 45-minute sessions to conduct their hands-on tutorial. In addition, each presenter will have the opportunity to give a teaser presentation of 5 minutes to attract the audience to attend their tutorial. Interested participants should submit a tutorial proposal that contains the following:"
+    keywords: ["To be announced"]
+
+  organizer:
+    pc_chair: ["Yiqun Xie (University of Maryland)", 
+    "Jia Yu (Washington State University, Apache Software Foundation)"]
+    pc_member: ["To be announced"]
+
+  deadline:
+    submission: "To be announced"
+    notification: "To be announced"
+    camera: "To be announced"
+    workshopdate: "November 2, 2021"
+    submissionsite: "To be announced"
+  # Fork me on GitHub, if you don't want this, just remove the forkButton property
+  # ForkButton:
+  #   repository: "https://github.com/jweslley/hugo-conference/"
+
+  # List of Sponsors
+  # Sponsors:
+  #   - name: "Hugo"
+  #     logo: "/img/hugo.png"
+  #     url: "http://gohugo.io"
