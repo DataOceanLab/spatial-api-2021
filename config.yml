@@ -34,7 +34,7 @@ params:
   Titles:
     intro: "About"
     location: "Location"
-    cfp: "Call For Papers"
+    cfp: "Call For Tutorials"
     organizer: "Organization Committee"
     speakers: "Speakers"
     schedule: "Schedule"
@@ -53,8 +53,8 @@ params:
     text: "The 3rd ACM SIGSPATIAL International Workshop on APIs and Libraries for Geospatial Data Science (SpatialAPI 2021) is to provide students and researchers with hands-on experience with useful APIs and libraries related to geospatial data science, spanning from spatial big data management to advanced analytics enabled by machine learning, optimization, and more. At the same time, it gives an opportunity for API providers to reach out to targeted audiences who can benefit from their APIs. The API providers will be able to get direct feedback for their users to understand how to further improve their APIs and make them more user-friendly. The tutorials will be done in a classroom-style setting where the audience will bring their laptops to follow the directions of the presenter."
 
   cfp:
-    text: "The workshop is calling for tutorial proposals from the community. Accepted tutorials will have two 45-minute sessions to conduct their hands-on tutorial. In addition, each presenter will have the opportunity to give a teaser presentation of 5 minutes to attract the audience to attend their tutorial. Interested participants should submit a tutorial proposal that contains the following:"
-    keywords: ["To be announced"]
+    text: "Please find the Call For Tutorials here: "
+    keywords: [""]
 
   organizer:
     pc_chair: ["Yiqun Xie (University of Maryland)", 
@@ -62,11 +62,11 @@ params:
     pc_member: ["To be announced"]
 
   deadline:
-    submission: "To be announced"
-    notification: "To be announced"
+    submission: "August 31, 2021 (anywhere on earth)"
+    notification: "September 14, 2021 (anywhere on earth)"
     camera: "To be announced"
     workshopdate: "November 2, 2021"
-    submissionsite: "To be announced"
+    submissionsite: "https://easychair.org/my/conference?conf=spatialapi21"
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   # ForkButton:
   #   repository: "https://github.com/jweslley/hugo-conference/"
