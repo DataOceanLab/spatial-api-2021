@@ -53,7 +53,10 @@ params:
     text: "The 3rd ACM SIGSPATIAL International Workshop on APIs and Libraries for Geospatial Data Science (SpatialAPI 2021) is to provide students and researchers with hands-on experience with useful APIs and libraries related to geospatial data science, spanning from spatial big data management to advanced analytics enabled by machine learning, optimization, and more. At the same time, it gives an opportunity for API providers to reach out to targeted audiences who can benefit from their APIs. The API providers will be able to get direct feedback for their users to understand how to further improve their APIs and make them more user-friendly. The tutorials will be done in a classroom-style setting where the audience will bring their laptops to follow the directions of the presenter."
 
   cfp:
-    text: "https://dataoceanlab.github.io/spatial-api-2021/files/CFP21.pdf"
+    text: "The workshop is calling for tutorial proposals from the community. Each accepted tutorial will have two 45-minute sessions to conduct their hands-on tutorial. In addition, each presenter will have the
+opportunity to give a teaser presentation of 5 minutes to attract the audience to attend their tutorial. Interested participants should submit a tutorial proposal in ACM format
+(https://www.acm.org/publications/proceedings-template). This proposal must be no more than 2 pages and contain the content listed in the PDF version of CFP."
+    url: "https://dataoceanlab.github.io/spatial-api-2021/files/CFP21.pdf"
     keywords: [""]
 
   organizer:
