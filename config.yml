@@ -26,7 +26,7 @@ params:
     - cfp
     - deadline
     - organizer
-    # - speakers
+    - speakers
     # - schedule
     #- contact
 
@@ -70,12 +70,16 @@ opportunity to give a teaser presentation of 5 minutes to attract the audience t
     camera: "To be announced"
     workshopdate: "November 2, 2021"
     submissionsite: "https://easychair.org/my/conference?conf=spatialapi21"
-  # Fork me on GitHub, if you don't want this, just remove the forkButton property
-  # ForkButton:
-  #   repository: "https://github.com/jweslley/hugo-conference/"
 
-  # List of Sponsors
-  # Sponsors:
-  #   - name: "Hugo"
-  #     logo: "/img/hugo.png"
-  #     url: "http://gohugo.io"
+  Speakers: 
+    - name: "SafeGraph"
+      photo: "https://assets-global.website-files.com/5baafc2653bd67278f206724/5e71e3904626f11bd4f00ea5_safegraph-logo.svg"
+      bio: "SafeGraph’s places dataset includes a breadth of information about physical places in the US, UK and Canada. This includes core location data, spatial hierarchy metadata, place traffic data, and more."
+      company: "SafeGraph"
+      talk: 
+        title: "TBA"
+        href: ""
+      # link:
+      #   twitter: "http://twitter.com/linus"
+      #   github: "http://github.com/linus"
+      #   linkedin: "http://linkedin.com/linus"

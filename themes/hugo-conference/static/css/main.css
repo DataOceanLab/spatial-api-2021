@@ -835,8 +835,16 @@ nav {
 /* =============================================================================
    SPEAKER
    ========================================================================== */
+.speakers {
+  border-right: 5px solid #e7e7e7;
+  border-left: 5px solid #e7e7e7;  
+  background: #fff;
+  border-radius: 4px;
+  padding: 10px;
+}
+
 .speaker-photo .photo {
-  border-radius: 50%;
+  border-radius: 5%;
   box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.07);
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
