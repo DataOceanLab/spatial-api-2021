@@ -62,11 +62,11 @@ opportunity to give a teaser presentation of 5 minutes to attract the audience t
   organizer:
     pc_chair: ["Yiqun Xie (University of Maryland)", 
     "Jia Yu (Washington State University, Apache Software Foundation)"]
-    pc_member: ["To be announced"]
+    pc_member: ["Peter Baumann (Jacobs University Bremen)", "Ahmed Eldawy (University of California, Riverside)", "Amr Magdy (University of California, Riverside)", "Janet Reyes (University of California, Riverside)", "Ibrahim Sabek (Massachusetts Institute of Technology)", "Martin Werner (Technical University of Munich)"]
 
   deadline:
     submission: "August 31, 2021 (anywhere on earth)"
-    notification: "September 14, 2021 (anywhere on earth)"
+    notification: "September 25, 2021 (anywhere on earth) (extended)"
     camera: "To be announced"
     workshopdate: "November 2, 2021"
     submissionsite: "https://easychair.org/my/conference?conf=spatialapi21"
@@ -77,7 +77,7 @@ opportunity to give a teaser presentation of 5 minutes to attract the audience t
       bio: "SafeGraph’s places dataset includes a breadth of information about physical places in the US, UK and Canada. This includes core location data, spatial hierarchy metadata, place traffic data, and more."
       company: "SafeGraph"
       talk: 
-        title: "TBA"
+        title: "This is an invited talk"
         href: ""
       # link:
       #   twitter: "http://twitter.com/linus"
