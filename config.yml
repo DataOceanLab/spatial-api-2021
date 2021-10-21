@@ -27,7 +27,7 @@ params:
     - deadline
     - organizer
     - speakers
-    # - schedule
+    - schedule
     #- contact
 
   # Titles which you can translate to other languages
@@ -36,7 +36,7 @@ params:
     location: "Location"
     cfp: "Call For Tutorials"
     organizer: "Organization Committee"
-    speakers: "Speakers"
+    # speakers: "Invited Speaker"
     schedule: "Schedule"
     deadline: "Important Dates"
     # sponsors: "Sponsors"
@@ -47,7 +47,7 @@ params:
   # If you don't want this, just remove the callToAction property.
   CallToAction:
     text: "Register now"
-    link: ""
+    link: "https://sigspatial2021.sigspatial.org/registration/"
 
   intro:
     text: "The 3rd ACM SIGSPATIAL International Workshop on APIs and Libraries for Geospatial Data Science (SpatialAPI 2021) is to provide students and researchers with hands-on experience with useful APIs and libraries related to geospatial data science, spanning from spatial big data management to advanced analytics enabled by machine learning, optimization, and more. At the same time, it gives an opportunity for API providers to reach out to targeted audiences who can benefit from their APIs. The API providers will be able to get direct feedback for their users to understand how to further improve their APIs and make them more user-friendly. The tutorials will be done in a classroom-style setting where the audience will bring their laptops to follow the directions of the presenter."
@@ -67,19 +67,55 @@ opportunity to give a teaser presentation of 5 minutes to attract the audience t
   deadline:
     submission: "August 31, 2021 (anywhere on earth)"
     notification: "September 25, 2021 (anywhere on earth) (extended)"
-    camera: "To be announced"
+    camera: "October 10, 2021"
     workshopdate: "November 2, 2021"
     submissionsite: "https://easychair.org/my/conference?conf=spatialapi21"
 
-  Speakers: 
-    - name: "SafeGraph"
-      photo: "https://assets-global.website-files.com/5baafc2653bd67278f206724/5e71e3904626f11bd4f00ea5_safegraph-logo.svg"
-      bio: "SafeGraph’s places dataset includes a breadth of information about physical places in the US, UK and Canada. This includes core location data, spatial hierarchy metadata, place traffic data, and more."
-      company: "SafeGraph"
-      talk: 
-        title: "This is an invited talk"
-        href: ""
+  # Speakers: 
+  #   - name: "James Kyle"
+  #     photo: "https://assets-global.website-files.com/5baafc2653bd67278f206724/5e71e3904626f11bd4f00ea5_safegraph-logo.svg"
+  #     company: "SafeGraph"
+  #     talk: 
+  #       title: "Understand Consumer Behavior With Verified Foot Traffic Data"
+  #       href: "#schedule"
       # link:
       #   twitter: "http://twitter.com/linus"
       #   github: "http://github.com/linus"
       #   linkedin: "http://linkedin.com/linus"
+
+  schedule:
+    - title: "Openning remarks"
+      time: "2021-11-02 08:00:00"
+      abstract: "Foreword"
+      file: "frontmatter.pdf"
+      authors: ""
+    - title: "Understand Consumer Behavior With Verified Foot Traffic Data"
+      time: "2021-11-02 08:00:00"
+      abstract: "Our workshop’s objective is to provide professionals, researchers, and practitioners interested in deriving human movement patterns from location data. We use a sample of our Weekly and Monthly Patterns and Core Places products to perform market research on a potential new coffee shop location. How far are customers willing to travel for coffee? What location will receive the most visibility? Where do most of the coffee customers come from? We’ll address these concerns and more in building a market analysis proposal in real time."
+      file:
+      authors: "James Kyle (SafeGraph)"
+    - title: "Interactive Mapping and Geospatial Analysis with Leafmap and Jupyter"
+      time: "2021-11-02 08:00:00"
+      abstract: "This workshop will introduce the key features of leafmap for interactive mapping and geo spatial analysis in a Jupyter environment. Attendees will learn how to leverage open-source Python packages and free cloud computing platforms for geospatial analysis and data visualization."
+      file: "paper_1.pdf"
+      authors: "Qiusheng Wu (University of Tennessee, Knoxville)"      
+    - title: "MobilityDB: Hands on Tutorial on Managing and Visualizing Geospatial Trajectories in SQL"
+      time: "2021-11-02 08:00:00"
+      abstract: "MobilityDB is an open source moving object database. It extends PostgreSQL and PostGIS with types and operations for managing continuous geospatial trajectories. This hand-on tutorial will introduce the attendees to: (1) trajectory data management in MobilityDB, (2) visualization of moving object data in QGIS, and (3) distributed spatiotemporal query processing using MobilityDB. All the tutorial queries will be in SQL."
+      file: "paper_3.pdf"
+      authors: "Esteban Zimányi, Mahmoud Sakr, Mohamed Bakli Maxime Schomans, Dimitris Tsesmelis, Robin Choquet (Université libre de Bruxelles)"      
+    - title: "CyberGIS-Compute for enabling computationally intensive geospatial research"
+      time: "2021-11-02 08:00:00"
+      abstract: "In this tutorial, we will first start with the basics of CyberGISJupyter and CyberGIS-Compute, then introduce the Python SDK for CyberGIS-Compute with a simple Hello World example. Then, we will take multiple real-world geospatial applications use-cases like spatial accessibility and wildfire evacuation simulation using agent based modeling. We will also provide pointers on how to contribute applications to the CyberGIS-Compute framework."
+      file: "paper_5.pdf"
+      authors: "Anand Padmanabhan, Ximo Ziao, Rebecca C. Vandewalle, Furqan Baig, Alexander Michel, Zhiyu Li, Shaowen Wang (University of Illinois at Urbana Champaign)"      
+    - title: "A Brief Introduction to Geospatial Big Data Analytics with Apache AsterixDB"
+      time: "2021-11-02 08:00:00"
+      abstract: "This tutorial introduces Apache AsterixDB, a scalable open-source Big Data Management System, which supports standard vector spatial data types as well as non-spatial attributes, e.g., numerical, temporal, and textual. The participants will get hands-on experience on how Apache AsterixDB can efficiently process complex SQL++ queries that require multiple special handling by a team from its kitchen."
+      file: "paper_6.pdf"
+      authors: "Akil Sevim, Mehnaz Tabassum Mahin, Tin Vu, Ian Maxon, Ahmed Eldawy, Michael Carey, Vassilis Tsotras (University of California, Riverside and University of California, Irvine)"      
+    - title: "The OGC/ISO Coverage API Standards: Heavy-Lifting APIs for Massive Multi-Dimensional Data"
+      time: "2021-11-02 08:00:00"
+      authors: "Peter Baumann (Jacobs University)"       
+      abstract: "In this tutorial, we first briefly recapitulate the coverage model and simple access with WCS Core, address the status of OAPICoverages, and then proceed to datacube analytics with WPCS. Practical demos based on the EarthServer datacube federation serve to illustrate; participants can recap and modify most of the demos. Altogether, this workshop constitutes a unique opportunity for getting up to speed with coverages and datacubes."
+      file: "paper_7.pdf"

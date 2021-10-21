@@ -16,11 +16,14 @@
           </div>    
         {{ end }}
     </h3>
-    <p class="speakers-bio">{{ .bio }}</p>
+    <p></p>
     <h4 class="speech-title">
-      <span>Talk:</span>
+      <span>Tutorial:</span>
       <a href="{{ .talk.href }}" title="{{ .text }}"> {{ .talk.title }} </a>
     </h4>
+
+    <!-- <p class="speakers-bio">{{ .abstract }}</p>     -->
+  
   </li>
 {{ end }}
 </ul>
