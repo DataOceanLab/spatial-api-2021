@@ -8,7 +8,7 @@
     <thead>
       <tr>
         <th class="schedule-time">Pacific time</th>
-        <th class="schedule-time">Your local time</th>
+        <th class="schedule-time">Beijing time</th>
         <th class="schedule-slot">Title</th>
         <!-- <th class="schedule-description">Abstract</th> -->
         <th class="schedule-pdf">Preparation and proposal</th>
@@ -17,8 +17,8 @@
     <tbody>
       {{ range $slot := .schedule }}
         <tr class="schedule-other">
-          <td class="schedule-time">{{ time .time "America/Los_Angeles" }}</td>
-          <td class="schedule-time">{{ (time .time "America/Los_Angeles").Local }}</td>
+          <td class="schedule-time">{{ .time }}</td>
+          <td class="schedule-time">{{ .beijing }}</td>
           <td class="schedule-slot">{{ .title }} <br><br>  {{ .authors }}</td>
           <!-- <td class="schedule-description">{{ .abstract }}</td> -->
           <td class="schedule-pdf"> {{ if ne .file nil }}
