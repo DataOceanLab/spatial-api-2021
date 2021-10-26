@@ -461,7 +461,7 @@ nav {
   margin-right: 20px;
 }
 .schedule-tbl .schedule-time {
-  width: 60px;
+  width: 120px;
   text-align: center;
 }
 .schedule-tbl .schedule-pdf {
@@ -469,8 +469,9 @@ nav {
   text-align: center;
 }
 .schedule-slot {
-  width: 150px;
+  width: 400px;
   font-size: 16px;
+  text-align: center;
 }
 .speakers-company {
   display: block;
