@@ -89,7 +89,7 @@ opportunity to give a teaser presentation of 5 minutes to attract the audience t
       time: "11-02 09:00"
       beijing: "11-03 00:00"
       abstract: "Foreword"
-      file: "frontmatter.pdf"
+      file:
       authors: ""
     - title: "Understand Consumer Behavior With Verified Foot Traffic Data"
       time: "11-02 09:10"
