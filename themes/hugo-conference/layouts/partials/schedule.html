@@ -2,27 +2,38 @@
 <div class="schedule-tbl">
 <h2 class="section-title">{{ .titles.schedule }}</h2>
 
-<!-- <p>The time below is tentative.</p>
- -->
+<p>Please read the preparation steps listed in each tutorial proposal to download or install necessary data and software.</p>
+
+<p><img width="100" src="https://sigspatial2021.sigspatial.org/images/buttons/zoom.png">: <a href="https://acm-org.zoom.us/j/97413030964">https://acm-org.zoom.us/j/97413030964</a></p>
+<p>Passcode: <img src="images/code.png" width="100"></p>
+
+<p>(1) You must sign in your Zoom account in order to join this meeting. If you use your institution's Zoom account, you might need to choose the "SSO" option when log in.</p>
+
+<p>(2) You will first be put in a waiting room. The organizers then will verify your identity and admit you into the meeting.</p>
+
+<p>(3) To be admitted into the meeting, your Zoom name must be a full name such as Tom Smith (preferably with an affiliation).</p>
+
   <table>
     <thead>
       <tr>
         <th class="schedule-time">Pacific time</th>
-        <th class="schedule-time">Beijing time</th>
+        <th class="schedule-time">Duration</th>
         <th class="schedule-slot">Title</th>
         <!-- <th class="schedule-description">Abstract</th> -->
         <th class="schedule-pdf">Preparation and proposal</th>
+        <th class="schedule-time">Beijing time</th>
       </tr>
     </thead>
     <tbody>
       {{ range $slot := .schedule }}
         <tr class="schedule-other">
           <td class="schedule-time">{{ .time }}</td>
-          <td class="schedule-time">{{ .beijing }}</td>
+          <td class="schedule-time">{{ .duration }}</td>
           <td class="schedule-slot">{{ .title }} <br><br>  {{ .authors }}</td>
           <!-- <td class="schedule-description">{{ .abstract }}</td> -->
           <td class="schedule-pdf"> {{ if ne .file nil }}
-            <a href="./files/{{ .file }}">PDF</a> {{ else }}  {{ end }}</td>
+            <a href="./files/{{ .file }}">PDF</a> {{ else }} {{ .prep }} {{ end }}</td>
+          <td class="schedule-time">{{ .beijing }}</td>
         </tr>
       {{ end }}
     </tbody>
